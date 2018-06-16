@@ -1,0 +1,151 @@
+
+.menu{
+    float:left;
+    display:none;
+}
+.show-menu{
+    border-radius: 5px;
+    width: 42px;
+    padding: 1px 1px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    margin-bottom: 3px;
+    
+
+}
+.show-menu i{
+    margin:2px 0;
+    height:6px;
+    width:100%;
+    float:left;
+    background:white;
+}
+#list_menu_toggle{
+    display: none;
+}
+
+
+
+	#rightSide{
+		background:white !important;
+		
+	}
+	body{
+		background:none !important;
+		background-color: #ffab1d !important ;
+	}
+	
+	#left_content{
+		background: none !important;
+		background-color: #ffab1d !important;
+	}
+	#leftSide{
+		background: none !important;
+		background-color: #ffab1d !important;
+	}
+	#menu{
+		background-color: #ffab1d !important;
+	}
+	.topNav{
+		background: none !important;
+		background-color: #ffab1d !important;
+	}
+	.userNav{
+		border-left:1px solid #fff !important;
+		border-right:1px solid #fff !important;
+	}
+	.userNav ul{
+		border-left:1px solid #fff !important;
+		border-right:1px solid #fff !important;
+	}
+	.userNav ul li{
+		
+		border-left:1px solid #fff !important;
+		border-right:1px solid #fff !important;
+	}
+	.userNav ul li a{
+		border-left:1px solid #fff !important;
+		border-right:1px solid #fff !important;
+	}
+	.userNav ul li a:hover{
+		background : #fff !important;
+	}
+	.userNav ul li a:hover span{
+		color:#ffab1d !important;
+	}
+	.nav{
+		border-top: 1px solid white;
+	}
+	.nav li a{
+		background: none !important;
+		border-bottom: 1px solid #ffffff !important;
+		border-top: 1px solid #ffffff !important;
+	}
+	.nav li a strong{
+		background-color: #ffffff !important;
+		color: #ffab1d;
+	} 
+	.sidebarSep{
+		background:none !important;
+		border-top:5px solid #fff !important;
+	}
+	.nav li a:hover{
+		background : #ffffff !important;
+		
+	}
+	.nav li a:hover span{
+		color: #ffab1d;
+	}
+	ul.sub{
+		background:none !important;
+		border-bottom: #ffffff !important;
+	}
+	ul.sub li{
+		background: #fff !important;
+		border-bottom: 1px solid yellow !important;
+		border-top: 1px solid yellow !important;
+	}
+
+@media(max-width: 992px){
+
+	#left_content{
+		display:none !important;
+	}
+	.menu{
+        float: right;
+        display: block;
+    }
+	#menu_toggle{
+        right:0;
+        top:-2px;
+        position: absolute;
+        z-index: 101;
+    }
+    #list_menu_toggle{
+        width:100%;
+        position: absolute;
+        top:30px;
+        z-index: 50;
+        background: #fff;
+    }
+    
+
+
+}
+@media (max-width: 768px){
+	.widget .title h6{
+		font-size:20px !important;
+	}
+}
+
+
+
+
+
+/*@media(max-width: 768px){
+	#left_content{
+		display:none !important;
+	}
+}*/
+
+
